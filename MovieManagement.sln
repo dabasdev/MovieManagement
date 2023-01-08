@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.Api", "Management.Api\Management.Api.csproj", "{D91F962C-4E59-4BDB-B517-91D33DA01044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.Api", "Management.Api\Management.Api.csproj", "{D91F962C-4E59-4BDB-B517-91D33DA01044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.Domain", "Management.Domain\Management.Domain.csproj", "{7FA1C88A-B59A-4807-828C-0F28251A33FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.Domain", "Management.Domain\Management.Domain.csproj", "{7FA1C88A-B59A-4807-828C-0F28251A33FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.DataAccess", "Management.DataAccess\Management.DataAccess.csproj", "{AC3B6019-BE44-464A-B337-88B42AE93DB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management.DataAccess", "Management.DataAccess\Management.DataAccess.csproj", "{AC3B6019-BE44-464A-B337-88B42AE93DB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

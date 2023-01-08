@@ -6,7 +6,6 @@ public class Movie
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public int ActorId { get; set; }
-    public Actor? Actor { get; set; } 
+    public Actor? Actor { get; set; }
     public List<Genre>? Genre { get; set; }
-
 }
