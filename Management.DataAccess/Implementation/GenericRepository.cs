@@ -17,7 +17,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
 
     public T? GetById(int id)
     {
-        return  _dbSet.Find(id);
+        return _dbSet.Find(id);
     }
 
     public IEnumerable<T?> GetAll()
@@ -68,5 +68,4 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         _dbSet.Remove(entity);
         //await _context.SaveChangesAsync();
     }
-
 }

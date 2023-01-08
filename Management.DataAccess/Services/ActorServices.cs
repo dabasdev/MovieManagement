@@ -5,7 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Management.DataAccess.Services;
 
-public class ActorServices : GenericRepository<Actor> , IActorService
+public class ActorServices : GenericRepository<Actor>, IActorService
 {
-    public ActorServices(DbContext context) : base(context) { }
+    public ActorServices(DbContext context) : base(context)
+    {
+    }
 }
