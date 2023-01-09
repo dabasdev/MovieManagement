@@ -1,4 +1,4 @@
-﻿using Management.Domain.Repository;
+﻿using Management.Domain.IRepository;
 using Microsoft.EntityFrameworkCore;
 
 namespace Management.DataAccess.Implementation;
@@ -21,7 +21,7 @@ public class UnitOfWork : IUnitOfWork, IDisposable
 
     public IGenericRepository<T> GetRepository<T>() where T : class
     {
-        if (_repositories.TryGetValue(typeof(T), out var repository)) return (IGenericRepository<T>) repository!;
+        if (_repositories.TryGetValue(typeof(T), out var repository)) return (IGenericRepository<T>)repository!;
 
         IGenericRepository<T>? newRepository = new GenericRepository<T>(_context);
         _repositories.Add(typeof(T), newRepository);
